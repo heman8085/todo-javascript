@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(252, 252, 169);
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.main{
+    padding-top: 40px;
+    
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    column-gap: 50px;
+}
+.content{
+    padding-top: 20px;  
+   
+    
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.todo-item {
+    margin-bottom: 10px;
+}
+#searchInput {
+border-radius: 5px;
+padding: 5px;
+}
+#todoInput{
+    border-radius: 5px;
+    padding: 5px; 
+}
+ul{
+    list-style-type: none;
+}
